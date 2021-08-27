@@ -1,0 +1,16 @@
+#python program to print weekdays according to the number input by the user
+weekday = int(input("Enter the number:- "))
+if(weekday==1):
+    print("\nMonday")
+elif(weekday==2):
+    print("\nTueday")
+if(weekday==3):
+    print("\nWednesday")
+if(weekday==4):
+    print("\nThursday")
+if(weekday==5):
+    print("\nFriday")
+if(weekday==6):
+    print("\nSaturday")
+if(weekday==7):
+    print("\nSunday")
