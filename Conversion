@@ -1,0 +1,13 @@
+#python program to convert km to m and km to cm
+#where value is entered by user 
+#if 1:- km to m 2:- km to cm
+#code starts here
+a = int(input("Enter kilometers:-"))
+print("1. km to m ")
+print("2. km to cm")
+i = int(input("Choose 1 or 2:-"))
+if(i==1):
+    print(a*1000)
+elif(i==2):
+    print(a*1000*100)
+  
